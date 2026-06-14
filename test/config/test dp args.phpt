@@ -2,7 +2,7 @@
 Tests that when "test dp args" is disabled, the arguments passed from the data provider are hidden in the output.
 
 --ARGS--
--c test/config/TestDpArgs.xml --colors=always test/CapabilitiesTest.php --filter ::testDataProvider\h
+-c test/config/TestDpArgs.xml --colors=always test/CapabilitiesTest.php --filter ::testDataProvider\b
 
 --FILE_EXTERNAL--
 ../PHPUnit runner.php
